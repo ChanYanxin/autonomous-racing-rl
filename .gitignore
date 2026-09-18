@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+checkpoints/
+models/
+runs/
+wandb/
+*.obj
+*.pt
+*.pth
+CarEnv/
+registration.yaml
+.DS_Store
