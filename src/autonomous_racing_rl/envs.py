@@ -11,8 +11,8 @@ def make_racing_env(seed: int, render: bool = False, render_width: int = 1280) -
     `CarEnv` is intentionally not distributed with this portfolio repository.
     """
     try:
-        from CarEnv.Configs import RACING_FAST  # type: ignore
         import CarEnv  # noqa: F401  # type: ignore
+        from CarEnv.Configs import RACING_FAST  # type: ignore
     except ImportError as exc:
         raise RuntimeError(
             "CarEnv is not installed. Obtain the RLLBC BPA3 environment through "

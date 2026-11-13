@@ -4,7 +4,6 @@ import numpy as np
 import torch
 from torch import nn
 
-
 RGB_PAYLOAD_INDICES = (7, 8, 9)
 
 
